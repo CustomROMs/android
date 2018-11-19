@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- CustomROMs additions -->
+  <project path="android" name="CustomROMs/android" clone-depth="1" />
+  <project path="device/lineage/sepolicy" name="CustomROMs/android_device_lineage_sepolicy" clone-depth="1" />
+  <project path="external/bash" name="CustomROMs/android_external_bash" clone-depth="1" />
+  <project path="external/exfat" name="CustomROMs/android_external_exfat" clone-depth="1" />
+  <project path="external/fuse" name="CustomROMs/android_external_fuse" clone-depth="1" />
+  <project path="external/htop" name="CustomROMs/android_external_htop" clone-depth="1" />
+  <project path="external/libncurses" name="CustomROMs/android_external_libncurses" clone-depth="1" />
+  <project path="external/libnfc-nxp" name="CustomROMs/android_external_libnfc-nxp" clone-depth="1" />
+  <project path="external/libtar" name="CustomROMs/android_external_libtar" clone-depth="1" />
+  <project path="external/lineage-sdk-api-coverage" name="CustomROMs/android_external_lineage-sdk-api-coverage" clone-depth="1" />
+  <project path="external/nano" name="CustomROMs/android_external_nano" clone-depth="1" />
+  <project path="external/ntfs-3g" name="CustomROMs/android_external_ntfs-3g" clone-depth="1" />
+  <project path="external/one-true-awk" name="CustomROMs/android_external_one-true-awk" clone-depth="1" />
+  <project path="external/openssh" name="CustomROMs/android_external_openssh" clone-depth="1" />
+  <project path="external/p7zip" name="CustomROMs/android_external_p7zip" clone-depth="1" />
+  <project path="external/pigz" name="CustomROMs/android_external_pigz" clone-depth="1" />
+  <project path="external/rsync" name="CustomROMs/android_external_rsync" clone-depth="1" />
+  <project path="external/unrar" name="CustomROMs/android_external_unrar" clone-depth="1" />
+  <project path="external/vim" name="CustomROMs/android_external_vim" clone-depth="1" />
+  <project path="external/zip" name="CustomROMs/android_external_zip" clone-depth="1" />
+  <project path="hardware/lineage/interfaces" name="CustomROMs/android_hardware_lineage_interfaces" >
+    <copyfile dest="hardware/lineage/Android.bp" src="Android.bp" clone-depth="1" />
+  </project>
+  <project path="hardware/lineage/lineagehw" name="CustomROMs/android_hardware_lineage_lineagehw" clone-depth="1" />
+  <project path="hardware/lineage/telephony" name="CustomROMs/android_hardware_lineage_telephony" clone-depth="1" />
+  <!--<project path="hardware/ti/omap4" name="CustomROMs/android_hardware_ti_omap4" clone-depth="1" />-->
+  <!--<project path="hardware/ti/wlan" name="CustomROMs/android_hardware_ti_wlan" clone-depth="1" />-->
+  <!--<project path="hardware/ti/wpan" name="CustomROMs/android_hardware_ti_wpan" clone-depth="1" />-->
+  <project path="lineage-sdk" name="CustomROMs/android_lineage-sdk" clone-depth="1" />
+  <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CustomROMs/android_packages_apps_OpenWeatherMapProvider" clone-depth="1" />
+  <project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CustomROMs/android_packages_apps_WundergroundWeatherProvider" clone-depth="1" />
+  <project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" name="CustomROMs/android_packages_apps_YahooWeatherProvider" clone-depth="1" />
+  <project path="packages/apps/AppDrawer" name="CustomROMs/android_packages_apps_AppDrawer" clone-depth="1" />
+  <project path="packages/apps/AudioFX" name="CustomROMs/android_packages_apps_AudioFX" clone-depth="1" />
+  <project path="packages/apps/Eleven" name="CustomROMs/android_packages_apps_Eleven" clone-depth="1" />
+  <!--<project path="packages/apps/Exchange" name="CustomROMs/android_packages_apps_Exchange" clone-depth="1" />-->
+  <project path="packages/apps/FMRadio" name="CustomROMs/android_packages_apps_FMRadio" clone-depth="1" />
+  <project path="packages/apps/Jelly" name="CustomROMs/android_packages_apps_Jelly" clone-depth="1" />
+  <project path="packages/apps/LineageCustomizer" name="CustomROMs/android_packages_apps_LineageCustomizer" clone-depth="1" />
+  <project path="packages/apps/LineageParts" name="CustomROMs/android_packages_apps_LineageParts" clone-depth="1" />
+  <project path="packages/apps/LockClock" name="CustomROMs/android_packages_apps_LockClock" clone-depth="1" />
+  <project path="packages/apps/Profiles" name="CustomROMs/android_packages_apps_Profiles" clone-depth="1" />
+  <project path="packages/apps/Recorder" name="CustomROMs/android_packages_apps_Recorder" clone-depth="1" />
+  <project path="packages/apps/SetupWizard" name="CustomROMs/android_packages_apps_SetupWizard" clone-depth="1" />
+  <project path="packages/apps/Snap" name="CustomROMs/android_packages_apps_Snap" clone-depth="1" />
+  <project path="packages/apps/Trebuchet" name="CustomROMs/android_packages_apps_Trebuchet" clone-depth="1" />
+  <project path="packages/apps/Updater" name="CustomROMs/android_packages_apps_Updater" clone-depth="1" />
+  <project path="packages/overlays/Lineage" name="CustomROMs/android_packages_overlays_Lineage" clone-depth="1" />
+  <project path="packages/providers/WeatherProvider" name="CustomROMs/android_packages_providers_WeatherProvider" clone-depth="1" />
+  <project path="prebuilts/lineage-sdk" name="CustomROMs/android_prebuilts_lineage-sdk" clone-depth="1" />
+ <!-- <project path="system/extras/su" name="CustomROMs/android_system_extras_su" clone-depth="1" /> -->
+  <project path="vendor/lineage" name="CustomROMs/android_vendor_lineage" clone-depth="1" />
+
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="CustomROMs/android_device_qcom_sepolicy" clone-depth="1" />
+  <project path="external/ant-wireless/ant_native" name="CustomROMs/android_external_ant-wireless_ant_native" clone-depth="1" />
+  <project path="external/ant-wireless/ant_service" name="CustomROMs/android_external_ant-wireless_ant_service" clone-depth="1" />
+  <project path="external/ant-wireless/antradio-library" name="CustomROMs/android_external_ant-wireless_antradio-library" clone-depth="1" />
+  <project path="external/brctl" name="CustomROMs/android_external_brctl" clone-depth="1" />
+  <project path="external/connectivity" name="CustomROMs/android_external_connectivity" clone-depth="1" />
+  <project path="external/ebtables" name="CustomROMs/android_external_ebtables" clone-depth="1" />
+  <project path="external/json-c" name="CustomROMs/android_external_json-c" clone-depth="1" />
+  <project path="external/powertop" name="CustomROMs/android_external_powertop" clone-depth="1" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="CustomROMs/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8084" clone-depth="1" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="CustomROMs/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8916" clone-depth="1" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="CustomROMs/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8952" clone-depth="1" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CustomROMs/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8960" clone-depth="1" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CustomROMs/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8974" clone-depth="1" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="CustomROMs/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8994" clone-depth="1" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="CustomROMs/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8996" clone-depth="1" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="CustomROMs/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" clone-depth="1" />
+  <project path="hardware/qcom/audio-caf/sdm845" name="CustomROMs/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-845" clone-depth="1" />
+  <project path="hardware/qcom/bt-caf" name="CustomROMs/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-15.1-caf" clone-depth="1" />
+  <project path="hardware/qcom/display-caf/apq8084" name="CustomROMs/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8084" clone-depth="1" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CustomROMs/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8916" clone-depth="1" />
+  <project path="hardware/qcom/display-caf/msm8952" name="CustomROMs/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8952" clone-depth="1" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CustomROMs/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8960" clone-depth="1" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CustomROMs/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8974" clone-depth="1" />
+  <project path="hardware/qcom/display-caf/msm8994" name="CustomROMs/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8994" clone-depth="1" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CustomROMs/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8996" clone-depth="1" />
+  <project path="hardware/qcom/display-caf/msm8998" name="CustomROMs/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8998" clone-depth="1" />
+  <project path="hardware/qcom/display-caf/sdm845" name="CustomROMs/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-845" clone-depth="1" />
+  <project path="hardware/qcom/fm" name="CustomROMs/android_hardware_qcom_fm" groups="qcom,qcom_fm" clone-depth="1" />
+  <project path="hardware/qcom/media-caf/apq8084" name="CustomROMs/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8084" clone-depth="1" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CustomROMs/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8916" clone-depth="1" />
+  <project path="hardware/qcom/media-caf/msm8952" name="CustomROMs/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8952" clone-depth="1" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CustomROMs/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8960" clone-depth="1" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CustomROMs/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8974" clone-depth="1" />
+  <project path="hardware/qcom/media-caf/msm8994" name="CustomROMs/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8994" clone-depth="1" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CustomROMs/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8996" clone-depth="1" />
+  <project path="hardware/qcom/media-caf/msm8998" name="CustomROMs/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8998" clone-depth="1" />
+  <project path="hardware/qcom/media-caf/sdm845" name="CustomROMs/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-845" clone-depth="1" />
+  <project path="hardware/qcom/neuralnetworks/hvxservice" name="CustomROMs/android_hardware_qcom_neuralnetworks_hvxservice" >
+    <copyfile dest="hardware/qcom/Android.bp" src="Android.bp" clone-depth="1" />
+  </project>
+  <project path="hardware/qcom/power" name="CustomROMs/android_hardware_qcom_power" groups="qcom,pdk" clone-depth="1" />
+  <project path="hardware/qcom/thermal" name="CustomROMs/android_hardware_qcom_thermal" clone-depth="1" />
+  <project path="hardware/qcom/vr" name="CustomROMs/android_hardware_qcom_vr" clone-depth="1" />
+  <project path="hardware/qcom/wlan-caf" name="CustomROMs/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.1-caf" clone-depth="1" />
+  <project path="hardware/ril-caf" name="CustomROMs/android_hardware_ril" groups="pdk" revision="lineage-15.1-caf" clone-depth="1" />
+  <project path="system/qcom" name="CustomROMs/android_system_qcom" groups="qcom" clone-depth="1" />
+  <project path="system/tools/dtbtool" name="CustomROMs/android_system_tools_dtbtool" clone-depth="1" />
+  <project path="vendor/codeaurora/telephony" name="CustomROMs/android_vendor_codeaurora_telephony" clone-depth="1" />
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="CustomROMs/android_vendor_nxp_interfaces_opensource_nfc" >
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp" clone-depth="1" />
+  </project>
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="CustomROMs/android_vendor_nxp_opensource_external_libnfc-nci" clone-depth="1" />
+  <project path="vendor/nxp/opensource/frameworks" name="CustomROMs/android_vendor_nxp_opensource_frameworks" clone-depth="1" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="CustomROMs/android_vendor_nxp_opensource_packages_apps_Nfc" clone-depth="1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="CustomROMs/android_vendor_qcom_opensource_cryptfs_hw" clone-depth="1" />
+  <project path="vendor/qcom/opensource/dataservices" name="CustomROMs/android_vendor_qcom_opensource_dataservices" clone-depth="1" />
+  <project path="vendor/qcom/opensource/interfaces" name="CustomROMs/android_vendor_qcom_opensource_interfaces" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" clone-depth="1" />
+  </project>
+  <project path="vendor/qcom/opensource/rcs-service" name="CustomROMs/android_vendor_qcom_opensource_rcs-service" clone-depth="1" />
+
+  <!-- Infrastructure -->
+  <project path="lineage/ansible" name="CustomROMs/ansible" groups="infra" revision="master" clone-depth="1" />
+  <project path="lineage/charter" name="CustomROMs/charter" groups="infra" revision="master" clone-depth="1" />
+  <project path="lineage/crowdin" name="CustomROMs/cm_crowdin" groups="infra" revision="master" clone-depth="1" />
+  <project path="lineage/cve" name="CustomROMs/cve_tracker" groups="infra" revision="master" clone-depth="1" />
+  <project path="lineage/jenkins" name="CustomROMs/hudson" groups="infra" revision="master" clone-depth="1" />
+  <project path="lineage/mirror" name="CustomROMs/mirror" groups="infra" revision="master" clone-depth="1" />
+  <project path="lineage/slackbot" name="CustomROMs/slackbot" groups="infra" revision="master" clone-depth="1" />
+  <project path="lineage/website" name="CustomROMs/www" groups="infra" revision="master" clone-depth="1" />
+  <project path="lineage/wiki" name="CustomROMs/lineage_wiki" groups="infra" revision="master" clone-depth="1" />
+
+  <!-- Tools -->
+  <project path="lineage/contributors-cloud-generator" name="CustomROMs/contributors-cloud-generator" groups="tools" revision="master" clone-depth="1" />
+  <project path="lineage/scripts" name="CustomROMs/scripts" groups="tools" revision="master" clone-depth="1" />
+</manifest>
