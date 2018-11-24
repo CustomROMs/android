@@ -13,7 +13,7 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.1.0_r50" />
 
-  <default revision="refs/heads/lineage-15.1-rebase-i9300"
+  <default revision="refs/heads/lineage-15.1-i9300-rebase"
            remote="github"
            sync-c="true"
            sync-j="4" />
