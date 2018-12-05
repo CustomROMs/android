@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
+  <remote  name="substratum"
+           fetch="https://github.com/"
+           review="http://substratum.review" />
+
+  <remote  name="chrono"
+           fetch="https://github.com/ChronoMonochrome"
+           revision="refs/heads/master" />
+
+  <!-- Infrastructure -->
+  <remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
+  <remove-project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
+  <remove-project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
+  <remove-project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
+  <remove-project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
+  <remove-project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
+  <remove-project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
+  <remove-project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
+  <remove-project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+  <!-- Tools -->
+  <remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
+  <remove-project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+
+ <remove-project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" />
+ <remove-project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel,pdk" />
+ <remove-project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" />
+ <remove-project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel,pdk" />
+ <remove-project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel,pdk" />
+ <remove-project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel,pdk" />
+ <remove-project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel,pdk" />
+ <remove-project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel,pdk" />
+ <remove-project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel,pdk" />
+ <remove-project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel,pdk" />
+ <remove-project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" />
+ <remove-project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" />
+ <remove-project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" />
+ <remove-project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
+ <remove-project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk-qcom" />
+ <remove-project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" />
+ <remove-project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" />
+ <remove-project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" />
+ <remove-project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" />
+ <remove-project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
+ <remove-project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" />
+ <remove-project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" />
+ <remove-project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" />
+
+  <!--remove -->
+<!--  <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" /> -->
+  <!-- omnirom -->
+<!--  <project path="bootable/recovery" name="CustomROMs/android_bootable_recovery" revision="lineage-15.1" groups="pdk-cw-fs" /> -->
+
+  <!-- omnirom -->
+ <project path="external/busybox" name="CustomROMs/android_external_busybox" revision="android-8.1" />
+ <project path="system/extras/su" name="android_system_extras_su" remote="custom" />
+
+  <!-- START of CyanogenMod
+  <project path="external/busybox" name="CustomROMs/android_external_busybox" remote="github" revision="cm-14.1" />
+  <project path="external/stlport" name="CustomROMs/android_external_stlport" remote="github" revision="lineage-15.0" /> -->
+
+  <!-- arm toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+
+  <!-- Snap
+  <remove-project path="packages/apps/Snap" name="CustomROMs/android_packages_apps_Snap" />
+  <project path="packages/apps/Snap" name="CustomROMs/android_packages_apps_Snap" remote="github" revision="cm-14.1-old" /> -->
+
+  <!-- CyanogenMod
+  <project path="packages/apps/SoundRecorder" name="CustomROMs/android_packages_apps_SoundRecorder" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/CMFileManager" name="CustomROMs/android_packages_apps_CMFileManager" remote="github" revision="cm-14.1" /> -->
+
+  <!--MusicFX -->
+<!--
+  <project path="packages/apps/MusicFX" name="CustomROMs/android_packages_apps_MusicFX" revision="lineage-15.1" />-->
+
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="custom" />
+  <!--<project path="kernel/codina/chrono" name="Chrono_Kernel-1" remote="chrono" revision="master" />-->
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="chrono" revision="lineage-16.0" />
+  <!--<project path="device/samsung/codina" name="CustomROMs/android_device_samsung_codina" revision="lineage-16.0" />-->
+  <project path="device/samsung/smdk4412-common" name="CustomROMs/android_device_samsung_smdk4412-common" revision="lineage-16.0" />
+  <project path="device/samsung/i9300" name="CustomROMs/android_device_samsung_i9300" revision="lineage-16.0" />
+  <project path="vendor/samsung/smdk4412-common" name="CustomROMs/android_vendor_samsung_smdk4412-common" revision="lineage-15.1" />
+  <project path="vendor/samsung/i9300" name="CustomROMs/android_vendor_samsung_i9300" revision="lineage-15.1" />
+ <!--  <project path="hardware/u8500" name="CustomROMs/android_hardware_u8500" revision="lineage-15.1" /> -->
+ <!-- <project path="vendor/samsung/u8500-common" name="CustomROMs/android_vendor_samsung_u8500-common" revision="lineage-15.1" /> -->
+
+</manifest>
