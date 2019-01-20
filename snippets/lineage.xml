@@ -25,11 +25,11 @@
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp" clone-depth="1" />
   </project>
   <project path="hardware/lineage/lineagehw" name="CustomROMs/android_hardware_lineage_lineagehw" clone-depth="1" />
-  <project path="hardware/lineage/telephony" name="CustomROMs/android_hardware_lineage_telephony" clone-depth="1" />
+  <project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" revision="lineage-15.1" clone-depth="1" />
   <!--<project path="hardware/ti/omap4" name="CustomROMs/android_hardware_ti_omap4" clone-depth="1" />-->
   <!--<project path="hardware/ti/wlan" name="CustomROMs/android_hardware_ti_wlan" clone-depth="1" />-->
   <!--<project path="hardware/ti/wpan" name="CustomROMs/android_hardware_ti_wpan" clone-depth="1" />-->
-  <project path="lineage-sdk" name="CustomROMs/android_lineage-sdk" clone-depth="1" />
+  <project path="lineage-sdk" name="CustomROMs/android_lineage-sdk" clone-depth="1" revision="oms-15.1" />
   <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CustomROMs/android_packages_apps_OpenWeatherMapProvider" clone-depth="1" />
   <project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CustomROMs/android_packages_apps_WundergroundWeatherProvider" clone-depth="1" />
   <project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" name="CustomROMs/android_packages_apps_YahooWeatherProvider" clone-depth="1" />
@@ -38,17 +38,17 @@
   <project path="packages/apps/Eleven" name="CustomROMs/android_packages_apps_Eleven" clone-depth="1" />
   <!--<project path="packages/apps/Exchange" name="CustomROMs/android_packages_apps_Exchange" clone-depth="1" />-->
   <project path="packages/apps/FMRadio" name="CustomROMs/android_packages_apps_FMRadio" clone-depth="1" />
-  <project path="packages/apps/Jelly" name="CustomROMs/android_packages_apps_Jelly" clone-depth="1" />
+  <project path="packages/apps/Jelly" name="Chronomonochrome/android_packages_apps_Jelly" revision="master" clone-depth="1" />
   <project path="packages/apps/LineageCustomizer" name="CustomROMs/android_packages_apps_LineageCustomizer" clone-depth="1" />
-  <project path="packages/apps/LineageParts" name="CustomROMs/android_packages_apps_LineageParts" clone-depth="1" />
-  <project path="packages/apps/LockClock" name="CustomROMs/android_packages_apps_LockClock" clone-depth="1" />
+  <project path="packages/apps/LineageParts" name="CustomROMs/android_packages_apps_LineageParts" clone-depth="1" revision="oms-15.1" />
+  <project path="packages/apps/LockClock" name="CustomROMs/android_packages_apps_LockClock" clone-depth="1" revision="oms-15.1" />
   <project path="packages/apps/Profiles" name="CustomROMs/android_packages_apps_Profiles" clone-depth="1" />
   <project path="packages/apps/Recorder" name="CustomROMs/android_packages_apps_Recorder" clone-depth="1" />
   <project path="packages/apps/SetupWizard" name="CustomROMs/android_packages_apps_SetupWizard" clone-depth="1" />
   <project path="packages/apps/Snap" name="CustomROMs/android_packages_apps_Snap" clone-depth="1" />
-  <project path="packages/apps/Trebuchet" name="CustomROMs/android_packages_apps_Trebuchet" clone-depth="1" />
+  <project path="packages/apps/Trebuchet" name="CustomROMs/android_packages_apps_Trebuchet" clone-depth="1" revision="oms-15.1" />
   <project path="packages/apps/Updater" name="CustomROMs/android_packages_apps_Updater" clone-depth="1" />
-  <project path="packages/overlays/Lineage" name="CustomROMs/android_packages_overlays_Lineage" clone-depth="1" />
+  <project path="packages/overlays/Lineage" name="CustomROMs/android_packages_overlays_Lineage" clone-depth="1" revision="oms-15.1" />
   <project path="packages/providers/WeatherProvider" name="CustomROMs/android_packages_providers_WeatherProvider" clone-depth="1" />
   <project path="prebuilts/lineage-sdk" name="CustomROMs/android_prebuilts_lineage-sdk" clone-depth="1" />
  <!-- <project path="system/extras/su" name="CustomROMs/android_system_extras_su" clone-depth="1" /> -->
@@ -96,10 +96,6 @@
   <project path="hardware/qcom/neuralnetworks/hvxservice" name="CustomROMs/android_hardware_qcom_neuralnetworks_hvxservice" >
     <copyfile dest="hardware/qcom/Android.bp" src="Android.bp" clone-depth="1" />
   </project>
-  <project path="hardware/qcom/power" name="CustomROMs/android_hardware_qcom_power" groups="qcom,pdk" clone-depth="1" />
-  <project path="hardware/qcom/thermal" name="CustomROMs/android_hardware_qcom_thermal" clone-depth="1" />
-  <project path="hardware/qcom/vr" name="CustomROMs/android_hardware_qcom_vr" clone-depth="1" />
-  <project path="hardware/qcom/wlan-caf" name="CustomROMs/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.1-caf" clone-depth="1" />
   <project path="hardware/ril-caf" name="CustomROMs/android_hardware_ril" groups="pdk" revision="lineage-15.1-caf" clone-depth="1" />
   <project path="system/qcom" name="CustomROMs/android_system_qcom" groups="qcom" clone-depth="1" />
   <project path="system/tools/dtbtool" name="CustomROMs/android_system_tools_dtbtool" clone-depth="1" />

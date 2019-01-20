@@ -35,7 +35,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="CustomROMs/android_art" groups="pdk" />
+  <project path="art" name="CustomROMs/android_art" groups="pdk" revision="lineage-15.1" />
   <project path="bionic" name="CustomROMs/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CustomROMs/android_bootable_recovery" groups="pdk" clone-depth="1" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" clone-depth="1" />
@@ -334,7 +334,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="frameworks/av" name="CustomROMs/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="CustomROMs/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="CustomROMs/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="oms-15.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" clone-depth="1" />
@@ -345,7 +345,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
-  <project path="frameworks/native" name="CustomROMs/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="CustomROMs/android_frameworks_native" groups="pdk" revision="oms-15.1" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
@@ -411,27 +411,27 @@
   <project path="packages/apps/CarrierConfig" name="CustomROMs/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="packages/apps/CellBroadcastReceiver" name="CustomROMs/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="packages/apps/CertInstaller" name="CustomROMs/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="packages/apps/Contacts" name="CustomROMs/android_packages_apps_Contacts" groups="pdk-fs" />
+  <project path="packages/apps/Contacts" name="CustomROMs/android_packages_apps_Contacts" groups="pdk-fs" revision="oms-15.1" />
   <project path="packages/apps/DeskClock" name="CustomROMs/android_packages_apps_DeskClock" groups="pdk-fs" clone-depth="1" />
-  <project path="packages/apps/Dialer" name="CustomROMs/android_packages_apps_Dialer" groups="pdk-fs" />
-  <project path="packages/apps/DocumentsUI" name="CustomROMs/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Email" name="CustomROMs/android_packages_apps_Email" groups="pdk-fs" />
+  <project path="packages/apps/Dialer" name="CustomROMs/android_packages_apps_Dialer" groups="pdk-fs" revision="oms-15.1" />
+  <project path="packages/apps/DocumentsUI" name="CustomROMs/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" revision="oms-15.1" />
+  <project path="packages/apps/Email" name="CustomROMs/android_packages_apps_Email" groups="pdk-fs" revision="oms-15.1" />
   <project path="packages/apps/EmergencyInfo" name="CustomROMs/android_packages_apps_EmergencyInfo" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/ExactCalculator" name="CustomROMs/android_packages_apps_ExactCalculator" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/Gallery2" name="CustomROMs/android_packages_apps_Gallery2" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/HTMLViewer" name="CustomROMs/android_packages_apps_HTMLViewer" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/KeyChain" name="CustomROMs/android_packages_apps_KeyChain" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/ManagedProvisioning" name="CustomROMs/android_packages_apps_ManagedProvisioning" groups="pdk-fs" clone-depth="1" />
-  <project path="packages/apps/Messaging" name="CustomROMs/android_packages_apps_Messaging" groups="pdk-fs" clone-depth="1" />
+  <project path="packages/apps/Messaging" name="CustomROMs/android_packages_apps_Messaging" groups="pdk-fs" clone-depth="1" revision="oms-15.1" />
   <project path="packages/apps/Nfc" name="CustomROMs/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" clone-depth="1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" clone-depth="1" />
-  <project path="packages/apps/PackageInstaller" name="CustomROMs/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/PackageInstaller" name="CustomROMs/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" revision="oms-15.1" />
   <project path="packages/apps/PhoneCommon" name="CustomROMs/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="CustomROMs/android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/Settings" name="CustomROMs/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="CustomROMs/android_packages_apps_Stk" groups="apps_stk,pdk-fs" clone-depth="1" />
-  <project path="packages/apps/StorageManager" name="CustomROMs/android_packages_apps_StorageManager" groups="pdk-fs" />
+  <project path="packages/apps/StorageManager" name="CustomROMs/android_packages_apps_StorageManager" groups="pdk-fs" revision="oms-15.1" />
   <project path="packages/apps/Tag" name="CustomROMs/android_packages_apps_Tag" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/Terminal" name="CustomROMs/android_packages_apps_Terminal" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp" clone-depth="1" />
@@ -522,11 +522,11 @@
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="system/connectivity/wificond" name="CustomROMs/android_system_connectivity_wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="system/core" name="CustomROMs/android_system_core" groups="pdk" />
+  <project path="system/core" name="CustomROMs/android_system_core" groups="pdk" revision="oms-15.1" />
   <project path="system/extras" name="CustomROMs/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="system/hwservicemanager" name="CustomROMs/android_system_hwservicemanager" groups="pdk" />
+  <project path="system/hwservicemanager" name="CustomROMs/android_system_hwservicemanager" groups="pdk" revision="lineage-15.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="system/libhidl" name="CustomROMs/android_system_libhidl" groups="pdk" clone-depth="1" />
@@ -538,7 +538,7 @@
   <project path="system/nfc" name="CustomROMs/android_system_nfc" groups="pdk" clone-depth="1" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="system/sepolicy" name="CustomROMs/android_system_sepolicy" groups="pdk" />
+  <project path="system/sepolicy" name="CustomROMs/android_system_sepolicy" groups="pdk" revision="oms-15.1" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="system/tools/aidl" name="CustomROMs/android_system_tools_aidl" groups="pdk" clone-depth="1" />
   <project path="system/tools/hidl" name="CustomROMs/android_system_tools_hidl" groups="pdk" clone-depth="1" />
