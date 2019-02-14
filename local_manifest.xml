@@ -62,7 +62,7 @@
 <!--
   <project path="packages/apps/MusicFX" name="CustomROMs/android_packages_apps_MusicFX" revision="lineage-15.1" />-->
 
-  <project path="hardware/samsung" name="CustomROMs/android_hardware_samsung" revision="lineage-15.1-i9300" />
+  <project path="hardware/samsung" name="CustomROMs/android_hardware_samsung" revision="lineage-15.1" />
   <project path="kernel/codina/chrono" name="Chrono_Kernel-1" remote="chrono" revision="master" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="chrono" revision="master" />
   <project path="device/samsung/codina" name="CustomROMs/android_device_samsung_codina" revision="lineage-15.1" />
